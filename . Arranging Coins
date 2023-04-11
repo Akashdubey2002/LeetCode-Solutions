@@ -1,3 +1,11 @@
+Fastest solution
+
+class Solution {
+    public int arrangeCoins(int n) {
+        return (int)(Math.sqrt(2*(long)n + 0.25)-0.5);}}
+
+2nd method
+
 class Solution {
     public int arrangeCoins(int n) {
         int count=0;
@@ -18,7 +26,7 @@ class Solution {
 
 
 
-2nd method
+3rd method
 
 class Solution {
     public int arrangeCoins(int n) {
