@@ -1,0 +1,17 @@
+class Solution {
+    public int lastRemaining(int n) {
+        int head =1;
+        int left =n;
+        int jump = 1;
+        boolean leftd =true;
+        while(left>1){
+            if(leftd || left%2==1 ){
+                head = head + jump;
+            }
+            jump = jump*2;
+            left = left / 2;
+            leftd = !leftd;
+        }
+        return head;
+
+}}
