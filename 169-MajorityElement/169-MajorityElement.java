@@ -1,4 +1,4 @@
-// Last updated: 10/7/2026, 2:12:26 AM
+// Last updated: 10/7/2026, 2:12:31 AM
 1class Solution {
 2    public int majorityElement(int[] nums) {
 3      HashMap<Integer,Integer> map = new HashMap<>();
