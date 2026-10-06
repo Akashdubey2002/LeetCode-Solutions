@@ -1,4 +1,4 @@
-// Last updated: 10/7/2026, 1:09:30 AM
+// Last updated: 10/7/2026, 1:09:39 AM
 1class Solution {
 2    public int minAddToMakeValid(String s) {
 3        Stack<Character> st = new Stack<>();
